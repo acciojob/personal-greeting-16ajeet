@@ -12,7 +12,7 @@ const App = () => {
     
     <div>
       <label>Enter your name :</label>
-        <input  onChange={(event) =>  setName('Hello '+ event.target.value)} />
+        <input  onChange={(event) =>  setName('Hello '+ event.target.value + '!')} />
         <p>{name}</p>
     </div>
   )
